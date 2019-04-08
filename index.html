@@ -25,9 +25,14 @@
     font-family:Comic;
   }
 
-  .mastfooter{
+  .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: #000;
     color: white;
+    text-align: center;
   }
 
   .jumbotron{
@@ -42,6 +47,13 @@
   }
   .container-fluid{
     background-color: #d6d1d8;
+    margin: auto;
+  }
+
+  .card{
+    border: solid black 1px;
+    display: inline-block;
+    margin-top: 1px;
   }
 
   </style>
@@ -82,13 +94,24 @@
         <a href="https://xpudimx.github.io/15Puzzle-Python" class="btn btn-secondary">Check it out here!</a>
       </div>
     </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="https://4.imimg.com/data4/HC/FS/MY-2283272/japanese-interpreter-250x250.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Portuguese Language interpreter</h5>
+        <p class="card-text">C interpreter for a custom language represented in portuguese</p>
+        <a href="https://xpudimx.github.io/LabP-T1/" class="btn btn-secondary">Check it out here!</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="inner">
+        <i class="fas fa-code"></i>
+      </div>
+    </div>
+
   </div>
 
-  <footer class="mastfooter mt-auto py-1">
-    <div class="inner">
-      <p style="text-align:center;">Created By Hugo Dias</p>
-    </div>
-  </footer>
 </body>
 
 </html>
